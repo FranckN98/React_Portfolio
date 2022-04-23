@@ -1,0 +1,240 @@
+header {
+    height: 90vh;
+    padding-top: 10%;
+    overflow: hidden;
+    margin: 0 12%;
+
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+/*===== CTA ======*/
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap:1.2rem;
+    justify-content: center;
+
+}
+
+/*====== SOCIALS  ======*/ 
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem; 
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+
+}
+
+/*=========== ME ==========*/
+
+.me{
+    background: linear-gradient(var(--color-primary),transparent) ;
+    width: 28rem;
+    height: 40rem;
+    position: absolute;
+    left: calc(50% - 16rem);
+
+    border-radius: 12rem 12rem 4rem 4rem;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+ 
+ 
+}
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+   
+}
+.i-right {
+    flex:1;
+    position: relative;
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+
+}
+.i-right>:nth-child(2){
+    transform: scale(0.25);
+    top:-40%;
+    left:-50%
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-icons{
+    margin-top: 10rem;
+    display: flex;
+    gap: 2rem;
+
+}
+.i-icons>*{
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+.i-name>:nth-child(1) {
+
+    color:var(--color-white);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(2) {
+
+    color:var(--color-primary);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3) {
+
+    color:var(--color-light);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+/*======= MEDIA QUERIES (MEDIUM DEVICES) =========*/
+
+@media screen and (max-width: 1024px) {
+
+    header{
+
+        padding: 0;
+    }
+   
+    .intro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:3rem
+     
+    }
+    .i-icons{
+        margin-top: 2rem;
+        gap: 1rem;
+    
+    }
+  
+}
+
+/*======= MEDIA QUERIES (SMALL DEVICES) =========*/
+
+@media screen and (max-width: 600px) {
+    
+
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+    .intro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+     
+    }
+    .i-icons{
+        margin-top: 0;
+        transform: scale(0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .i-name>:nth-child(1) {
+
+        color:var(--color-white);
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .i-name>:nth-child(2) {
+    
+        color:var(--color-primary);
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .i-name>:nth-child(3) {
+    
+        color:var(--color-white);
+        font-weight: 100;
+        font-size: 12px;
+    }
+    .i-name {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .me{
+        background: linear-gradient(var(--color-primary),transparent) ;
+        width: 100%;
+        height: auto;
+        border-radius: 12rem 12rem 4rem 4rem;
+        overflow: hidden;
+        left: 0;
+       
+        padding: 3rem 1rem 1rem 1rem;
+  
+    }
+    .passion{
+        display: none;
+    }
+    .fonction{
+        display: none;
+    }
+    .i-left {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+    .i-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

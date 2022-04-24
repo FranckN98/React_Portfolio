@@ -97,7 +97,7 @@ a:hover{
     transition: var(--transition);
     font-size: 16px; 
     padding: 11px 26px 11px 26px;
-    border-radius: 34px;
+    border-radius: 7px;
 }
 
 .btn:hover {

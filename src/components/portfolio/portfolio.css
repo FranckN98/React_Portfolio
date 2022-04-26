@@ -10,6 +10,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .portfolio__item:hover {
@@ -43,7 +44,10 @@
 
     .portfolio__container{
         grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+        gap: 1.8rem;
+    }
+    .portfolio__item {
+        margin: 0 1rem;
     }
   
 }

@@ -1,6 +1,7 @@
 
 nav{
     display: none;
+    background-image: url(../../../src/assets/bg-texture.png);
 }
 
 .n-wrapper{
@@ -21,12 +22,6 @@ nav{
 
     width: 4rem;
     height: 4rem;
-
-
-
-  
-  
-
 }
 .n-logo > img{
     border-radius: 10%;

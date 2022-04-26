@@ -29,7 +29,7 @@ function Counter({ from, to }) {
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" style={{marginTop:'5rem'}}>
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 

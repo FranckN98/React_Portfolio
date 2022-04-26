@@ -6,6 +6,9 @@
 .skills{
     overflow: hidden;
 }
+.text{
+    color: var(--color-white);
+}
 
 .skills-box{
     background: rgba(0, 0, 0, 0.07);

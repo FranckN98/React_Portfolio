@@ -77,7 +77,7 @@ const Experience = () => {
             <div className="skill">
             <div className="sk-progress">
                   <ProgressProvider valueStart={0} valueEnd={89} >
-                    {value => <CircularProgressbar background styles={buildStyles({ backgroundColor:"transparent",trailColor: "#2c2c6c",textColor: "#fff",pathColor: "#4db5ff",})} value={value}  strokeWidth={3} text={`${value}%`} />}
+                    {value => <CircularProgressbar background styles={buildStyles({ backgroundColor:"transparent",trailColor: "var(--color-bg-variant)",textColor: "var(--color-white)",pathColor: "var(--color-primary)",})} value={value}  strokeWidth={3} text={`${value}%`} />}
                   </ProgressProvider>
               </div>
               <div className="sk-title">Arduino</div>
@@ -85,7 +85,7 @@ const Experience = () => {
             <div className="skill">
             <div className="sk-progress">
                   <ProgressProvider valueStart={0} valueEnd={80} >
-                    {value => <CircularProgressbar background styles={buildStyles({ backgroundColor:"transparent",trailColor: "#2c2c6c",textColor: "#fff",pathColor: "#4db5ff",})} value={value}  strokeWidth={3} text={`${value}%`} />}
+                    {value => <CircularProgressbar background styles={buildStyles({ backgroundColor:"transparent",trailColor: "var(--color-bg-variant)",textColor: "var(--color-white)",pathColor: "var(--color-primary)",})} value={value}  strokeWidth={3} text={`${value}%`} />}
                   </ProgressProvider>
               </div>
               <div className="sk-title">C/C++</div>
@@ -93,7 +93,7 @@ const Experience = () => {
             <div className="skill">
               <div className="sk-progress">
                   <ProgressProvider valueStart={0} valueEnd={65} >
-                    {value => <CircularProgressbar background styles={buildStyles({ backgroundColor:"transparent",trailColor: "#2c2c6c",textColor: "#fff",pathColor: "#4db5ff",})} value={value}  strokeWidth={3} text={`${value}%`} />}
+                    {value => <CircularProgressbar background styles={buildStyles({ backgroundColor:"transparent",trailColor: "var(--color-bg-variant)",textColor: "var(--color-white)",pathColor: "var(--color-primary)",})} value={value}  strokeWidth={3} text={`${value}%`} />}
                   </ProgressProvider>
               </div>
               <div className="sk-title">Java</div>
@@ -101,7 +101,7 @@ const Experience = () => {
             <div className="skill">
             <div className="sk-progress">
                   <ProgressProvider valueStart={0} valueEnd={75} >
-                    {value => <CircularProgressbar background styles={buildStyles({ backgroundColor:"transparent",trailColor: "#2c2c6c",textColor: "#fff",pathColor: "#4db5ff",})} value={value}  strokeWidth={3} text={`${value}%`} />}
+                    {value => <CircularProgressbar background styles={buildStyles({ backgroundColor:"transparent",trailColor: "var(--color-bg-variant)",textColor: "var(--color-white)",pathColor: "var(--color-primary)",})} value={value}  strokeWidth={3} text={`${value}%`} />}
                   </ProgressProvider>
               </div>
               <div className="sk-title">Matlab</div>
